@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="lumen is a browser puzzle game about routing coloured light with mirrors, splitters, filters and prisms." />
+    <meta name="theme-color" content="#0d2240" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>lumen · a light-routing puzzle</title>
+  </head>
+  <body>
+    <a class="skip" href="#screen">Skip to content</a>
+    <header class="bar">
+      <a class="brand" href="#/" aria-label="lumen, back to levels">lumen</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/">Levels</a>
+        <a href="#/editor">Editor</a>
+      </nav>
+      <div id="toggles" class="toggles"></div>
+    </header>
+    <main id="screen" tabindex="-1"></main>
+    <div id="announcer" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+    <noscript>lumen needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
